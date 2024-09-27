@@ -1,0 +1,304 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "test1@1.0.0",
+  "documentNamespace": "http://spdx.org/spdxdocs/test1-1.0.0-3d5c6b16-e9e3-43e2-bc4d-aea8fbd55a6c",
+  "creationInfo": {
+    "created": "2024-09-26T19:05:25.859Z",
+    "creators": [
+      "Tool: npm/cli-10.5.0"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-Package-test1-1.0.0"
+  ],
+  "packages": [
+    {
+      "name": "test1",
+      "SPDXID": "SPDXRef-Package-test1-1.0.0",
+      "versionInfo": "1.0.0",
+      "packageFileName": "",
+      "primaryPackagePurpose": "LIBRARY",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "homepage": "NOASSERTION",
+      "licenseDeclared": "CC0-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/test1@1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "asynckit",
+      "SPDXID": "SPDXRef-Package-asynckit-0.4.0",
+      "versionInfo": "0.4.0",
+      "packageFileName": "node_modules/asynckit",
+      "description": "Minimal async jobs utility library, with streams support",
+      "downloadLocation": "https://registry.npmmirror.com/asynckit/-/asynckit-0.4.0.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/alexindigo/asynckit#readme",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/asynckit@0.4.0"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "39e8bd387e2d461d18a94dc6c615fbf5d33f9b0560bdb64969235a464f9bb21923d12e5c7c772061a92b7818eb1f06ad5ca6f3f88a087582f1aca8a6d8c8d6d1"
+        }
+      ]
+    },
+    {
+      "name": "axios",
+      "SPDXID": "SPDXRef-Package-axios-1.7.7",
+      "versionInfo": "1.7.7",
+      "packageFileName": "node_modules/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "downloadLocation": "https://registry.npmmirror.com/axios/-/axios-1.7.7.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://axios-http.com",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/axios@1.7.7"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4b890bed7ae38019af746badd2c377c89c6a633ac33a78af90188dd0e16cea12e251a9b750fbecc14a3492a1b286a5191843b2b47cae984757b0092008e51fdd"
+        }
+      ]
+    },
+    {
+      "name": "combined-stream",
+      "SPDXID": "SPDXRef-Package-combined-stream-1.0.8",
+      "versionInfo": "1.0.8",
+      "packageFileName": "node_modules/combined-stream",
+      "description": "A stream that emits multiple other streams one after another.",
+      "downloadLocation": "https://registry.npmmirror.com/combined-stream/-/combined-stream-1.0.8.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/felixge/node-combined-stream",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/combined-stream@1.0.8"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1503783117ee25e1dfedc05b04c2455e12920eafb690002b06599106f72f144e410751d9297b5214048385d973f73398c3187c943767be630e7bffb971da0476"
+        }
+      ]
+    },
+    {
+      "name": "delayed-stream",
+      "SPDXID": "SPDXRef-Package-delayed-stream-1.0.0",
+      "versionInfo": "1.0.0",
+      "packageFileName": "node_modules/delayed-stream",
+      "description": "Buffers events from a stream until you are ready to handle them.",
+      "downloadLocation": "https://registry.npmmirror.com/delayed-stream/-/delayed-stream-1.0.0.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/felixge/node-delayed-stream",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/delayed-stream@1.0.0"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "672483ecd7fdd5a2c1d11c4be0a1ab28705797b11db350c098475ca156b05e72c3ed20e1a4d82db88236680920edaed04b8d63c4f499d7ba7855d1a730793731"
+        }
+      ]
+    },
+    {
+      "name": "follow-redirects",
+      "SPDXID": "SPDXRef-Package-follow-redirects-1.15.9",
+      "versionInfo": "1.15.9",
+      "packageFileName": "node_modules/follow-redirects",
+      "description": "HTTP and HTTPS modules that follow redirects.",
+      "downloadLocation": "https://registry.npmmirror.com/follow-redirects/-/follow-redirects-1.15.9.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/follow-redirects/follow-redirects",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/follow-redirects@1.15.9"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "81ec381ac5e2ccd81da11caa9b27cc1f20265ec64393a987912c59142cd6f60c256ed396e38083b586af33ecbeef6a83fd5ab6979e7490c179d834fc7ce2c9a9"
+        }
+      ]
+    },
+    {
+      "name": "form-data",
+      "SPDXID": "SPDXRef-Package-form-data-4.0.0",
+      "versionInfo": "4.0.0",
+      "packageFileName": "node_modules/form-data",
+      "description": "A library to create readable \"multipart/form-data\" streams. Can be used to submit forms and file uploads to other web applications.",
+      "downloadLocation": "https://registry.npmmirror.com/form-data/-/form-data-4.0.0.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/form-data/form-data#readme",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/form-data@4.0.0"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1131249521a2e6dd10319ba25e803f43abdc9f170b40fe6f76e812a6e0328ba4951a2d9c94f3e9fb180486e31a1c2fb31a09f7d4a776df95b7e5fec7ca491ac3"
+        }
+      ]
+    },
+    {
+      "name": "mime-db",
+      "SPDXID": "SPDXRef-Package-mime-db-1.52.0",
+      "versionInfo": "1.52.0",
+      "packageFileName": "node_modules/mime-db",
+      "description": "Media Type Database",
+      "downloadLocation": "https://registry.npmmirror.com/mime-db/-/mime-db-1.52.0.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/jshttp/mime-db#readme",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-db@1.52.0"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b0f538b95edd625bed589c70c311c3d0fba285536213b4f201b439496c43081f66518bce82ba103b061040e28f27c0886c4fb51135653a82b5502da7537818be"
+        }
+      ]
+    },
+    {
+      "name": "mime-types",
+      "SPDXID": "SPDXRef-Package-mime-types-2.1.35",
+      "versionInfo": "2.1.35",
+      "packageFileName": "node_modules/mime-types",
+      "description": "The ultimate javascript content-type utility.",
+      "downloadLocation": "https://registry.npmmirror.com/mime-types/-/mime-types-2.1.35.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/jshttp/mime-types#readme",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-types@2.1.35"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "64363e6cf9b9cd34c5f98a42ac053d9cad148080983d3d10b53d4d65616fe2cfbe4cd91c815693d20ebee11dae238323423cf2b07075cf1b962f9d21cda7978b"
+        }
+      ]
+    },
+    {
+      "name": "proxy-from-env",
+      "SPDXID": "SPDXRef-Package-proxy-from-env-1.1.0",
+      "versionInfo": "1.1.0",
+      "packageFileName": "node_modules/proxy-from-env",
+      "description": "Offers getProxyForUrl to get the proxy URL for a URL, respecting the *_PROXY (e.g. HTTP_PROXY) and NO_PROXY environment variables.",
+      "downloadLocation": "https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz",
+      "filesAnalyzed": false,
+      "homepage": "https://github.com/Rob--W/proxy-from-env#readme",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/proxy-from-env@1.1.0"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0fece439109b03d7f5b5d5912b445a091dc63efe7470cc5caf3e17f24e4b4d2503d43930e3b98a24465036e9c8b514e45b082d6944a8d515454481bd65788562"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-test1-1.0.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-axios-1.7.7",
+      "relatedSpdxElement": "SPDXRef-Package-test1-1.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-follow-redirects-1.15.9",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-form-data-4.0.0",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-proxy-from-env-1.1.0",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-delayed-stream-1.0.0",
+      "relatedSpdxElement": "SPDXRef-Package-combined-stream-1.0.8",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-asynckit-0.4.0",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-combined-stream-1.0.8",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-mime-types-2.1.35",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-mime-db-1.52.0",
+      "relatedSpdxElement": "SPDXRef-Package-mime-types-2.1.35",
+      "relationshipType": "DEPENDENCY_OF"
+    }
+  ]
+}

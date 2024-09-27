@@ -1,0 +1,175 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "documentDescribes": [
+    "SPDXRef-Package-test1-1.0.0"
+  ],
+  "packages": [
+    {
+      "name": "test1",
+      "SPDXID": "SPDXRef-Package-test1-1.0.0",
+      "versionInfo": "1.0.0",
+      "licenseDeclared": "CC0-1.0",
+      "checksums": []
+    },
+    {
+      "name": "asynckit",
+      "SPDXID": "SPDXRef-Package-asynckit-0.4.0",
+      "versionInfo": "0.4.0",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "39e8bd387e2d461d18a94dc6c615fbf5d33f9b0560bdb64969235a464f9bb21923d12e5c7c772061a92b7818eb1f06ad5ca6f3f88a087582f1aca8a6d8c8d6d1"
+        }
+      ]
+    },
+    {
+      "name": "axios",
+      "SPDXID": "SPDXRef-Package-axios-1.7.7",
+      "versionInfo": "1.7.7",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4b890bed7ae38019af746badd2c377c89c6a633ac33a78af90188dd0e16cea12e251a9b750fbecc14a3492a1b286a5191843b2b47cae984757b0092008e51fdd"
+        }
+      ]
+    },
+    {
+      "name": "combined-stream",
+      "SPDXID": "SPDXRef-Package-combined-stream-1.0.8",
+      "versionInfo": "1.0.8",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1503783117ee25e1dfedc05b04c2455e12920eafb690002b06599106f72f144e410751d9297b5214048385d973f73398c3187c943767be630e7bffb971da0476"
+        }
+      ]
+    },
+    {
+      "name": "delayed-stream",
+      "SPDXID": "SPDXRef-Package-delayed-stream-1.0.0",
+      "versionInfo": "1.0.0",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "672483ecd7fdd5a2c1d11c4be0a1ab28705797b11db350c098475ca156b05e72c3ed20e1a4d82db88236680920edaed04b8d63c4f499d7ba7855d1a730793731"
+        }
+      ]
+    },
+    {
+      "name": "follow-redirects",
+      "SPDXID": "SPDXRef-Package-follow-redirects-1.15.9",
+      "versionInfo": "1.15.9",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "81ec381ac5e2ccd81da11caa9b27cc1f20265ec64393a987912c59142cd6f60c256ed396e38083b586af33ecbeef6a83fd5ab6979e7490c179d834fc7ce2c9a9"
+        }
+      ]
+    },
+    {
+      "name": "form-data",
+      "SPDXID": "SPDXRef-Package-form-data-4.0.0",
+      "versionInfo": "4.0.0",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1131249521a2e6dd10319ba25e803f43abdc9f170b40fe6f76e812a6e0328ba4951a2d9c94f3e9fb180486e31a1c2fb31a09f7d4a776df95b7e5fec7ca491ac3"
+        }
+      ]
+    },
+    {
+      "name": "mime-db",
+      "SPDXID": "SPDXRef-Package-mime-db-1.52.0",
+      "versionInfo": "1.52.0",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b0f538b95edd625bed589c70c311c3d0fba285536213b4f201b439496c43081f66518bce82ba103b061040e28f27c0886c4fb51135653a82b5502da7537818be"
+        }
+      ]
+    },
+    {
+      "name": "mime-types",
+      "SPDXID": "SPDXRef-Package-mime-types-2.1.35",
+      "versionInfo": "2.1.35",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "64363e6cf9b9cd34c5f98a42ac053d9cad148080983d3d10b53d4d65616fe2cfbe4cd91c815693d20ebee11dae238323423cf2b07075cf1b962f9d21cda7978b"
+        }
+      ]
+    },
+    {
+      "name": "proxy-from-env",
+      "SPDXID": "SPDXRef-Package-proxy-from-env-1.1.0",
+      "versionInfo": "1.1.0",
+      "licenseDeclared": "MIT",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "0fece439109b03d7f5b5d5912b445a091dc63efe7470cc5caf3e17f24e4b4d2503d43930e3b98a24465036e9c8b514e45b082d6944a8d515454481bd65788562"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-test1-1.0.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-axios-1.7.7",
+      "relatedSpdxElement": "SPDXRef-Package-test1-1.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-follow-redirects-1.15.9",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-form-data-4.0.0",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-proxy-from-env-1.1.0",
+      "relatedSpdxElement": "SPDXRef-Package-axios-1.7.7",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-delayed-stream-1.0.0",
+      "relatedSpdxElement": "SPDXRef-Package-combined-stream-1.0.8",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-asynckit-0.4.0",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-combined-stream-1.0.8",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-mime-types-2.1.35",
+      "relatedSpdxElement": "SPDXRef-Package-form-data-4.0.0",
+      "relationshipType": "DEPENDENCY_OF"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-mime-db-1.52.0",
+      "relatedSpdxElement": "SPDXRef-Package-mime-types-2.1.35",
+      "relationshipType": "DEPENDENCY_OF"
+    }
+  ]
+}
